@@ -1,0 +1,23 @@
+leila@LAPTOP-JKP8DJLA:/$ sudo nano /etc/nginx/sites-available/my_proxy
+leila@LAPTOP-JKP8DJLA:/$ sudo ln -s /etc/nginx/sites-available/my_proxy /etc/nginx/sites-enabled/
+leila@LAPTOP-JKP8DJLA:/$ sudo nginx -t
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+leila@LAPTOP-JKP8DJLA:/$ sudo systemctl reload nginx
+leila@LAPTOP-JKP8DJLA:/$ curl http://localhost:8080/api/
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.18.0 (Ubuntu)</center>
+</body>
+</html>
+leila@LAPTOP-JKP8DJLA:/$ curl http://localhost:5000
+curl: (7) Failed to connect to localhost port 5000 after 52 ms: Connection refused
+leila@LAPTOP-JKP8DJLA:/$ curl http://localhost:8000
+<div>My site on 8000</div>
+leila@LAPTOP-JKP8DJLA:/$ sudo nano /etc/nginx/sites-available/my_proxy
+leila@LAPTOP-JKP8DJLA:/$ sudo nginx -t
+sudo systemctl reload nginx
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful

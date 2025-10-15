@@ -1,0 +1,103 @@
+leila@LAPTOP-JKP8DJLA:~$ sudo adduser testuser
+Adding user `testuser' ...
+Adding new group `testuser' (1002) ...
+Adding new user `testuser' (1001) with group `testuser' ...
+Creating home directory `/home/testuser' ...
+Copying files from `/etc/skel' ...
+New password:
+Retype new password:
+Sorry, passwords do not match.
+passwd: Authentication token manipulation error
+passwd: password unchanged
+Try again? [y/N]
+Changing the user information for testuser
+Enter the new value, or press ENTER for the default
+        Full Name []: test
+        Room Number []:
+        Work Phone []:
+        Home Phone []:
+        Other []:
+Is the information correct? [Y/n]
+leila@LAPTOP-JKP8DJLA:~$ cat /etc/passwd | grep testuser
+testuser:x:1001:1002:test,,,:/home/testuser:/bin/bash
+leila@LAPTOP-JKP8DJLA:~$ sudo groupadd testgroup
+leila@LAPTOP-JKP8DJLA:~$ cat /etc/group | grep testgroup
+testgroup:x:1003:
+leila@LAPTOP-JKP8DJLA:~$ sudo usermod -aG testgroup testuser
+leila@LAPTOP-JKP8DJLA:~$ groups testuser
+testuser : testuser testgroup
+leila@LAPTOP-JKP8DJLA:~$ touch file.txt
+ls -la
+total 24
+drwxr-x--- 3 leila leila 4096 Oct 14 21:45 .
+drwxr-xr-x 4 root  root  4096 Oct 14 22:03 ..
+-rw-r--r-- 1 leila leila  220 Oct 14 21:24 .bash_logout
+-rw-r--r-- 1 leila leila 3771 Oct 14 21:24 .bashrc
+drwx------ 2 leila leila 4096 Oct 14 21:25 .cache
+-rw-r--r-- 1 leila leila    0 Oct 14 21:25 .motd_shown
+-rw-r--r-- 1 leila leila  807 Oct 14 21:24 .profile
+-rw-r--r-- 1 leila leila    0 Oct 14 21:25 .sudo_as_admin_successful
+-rwxr-xr-- 1 leila leila    0 Oct 14 22:08 file.txt
+leila@LAPTOP-JKP8DJLA:~$ sudo chown testuser:testgroup file.txt
+leila@LAPTOP-JKP8DJLA:~$ ls -la
+total 24
+drwxr-x--- 3 leila    leila     4096 Oct 14 21:45 .
+drwxr-xr-x 4 root     root      4096 Oct 14 22:03 ..
+-rw-r--r-- 1 leila    leila      220 Oct 14 21:24 .bash_logout
+-rw-r--r-- 1 leila    leila     3771 Oct 14 21:24 .bashrc
+drwx------ 2 leila    leila     4096 Oct 14 21:25 .cache
+-rw-r--r-- 1 leila    leila        0 Oct 14 21:25 .motd_shown
+-rw-r--r-- 1 leila    leila      807 Oct 14 21:24 .profile
+-rw-r--r-- 1 leila    leila        0 Oct 14 21:25 .sudo_as_admin_successful
+-rwxr-xr-- 1 testuser testgroup    0 Oct 14 22:08 file.txt
+leila@LAPTOP-JKP8DJLA:~$ chmod 754 file.txt
+ls -la
+chmod: changing permissions of 'file.txt': Operation not permitted
+total 24
+drwxr-x--- 3 leila    leila     4096 Oct 14 21:45 .
+drwxr-xr-x 4 root     root      4096 Oct 14 22:03 ..
+-rw-r--r-- 1 leila    leila      220 Oct 14 21:24 .bash_logout
+-rw-r--r-- 1 leila    leila     3771 Oct 14 21:24 .bashrc
+drwx------ 2 leila    leila     4096 Oct 14 21:25 .cache
+-rw-r--r-- 1 leila    leila        0 Oct 14 21:25 .motd_shown
+-rw-r--r-- 1 leila    leila      807 Oct 14 21:24 .profile
+-rw-r--r-- 1 leila    leila        0 Oct 14 21:25 .sudo_as_admin_successful
+-rwxr-xr-- 1 testuser testgroup    0 Oct 14 22:08 file.txt
+leila@LAPTOP-JKP8DJLA:~$ su - testuser
+Password:
+su: Authentication failure
+leila@LAPTOP-JKP8DJLA:~$ su - testuser
+Password:
+su: Authentication failure
+leila@LAPTOP-JKP8DJLA:~$ su - testuser
+Password:
+su: Authentication failure
+leila@LAPTOP-JKP8DJLA:~$ sudo passwd testuser
+New password:
+Retype new password:
+passwd: password updated successfully
+leila@LAPTOP-JKP8DJLA:~$ su - testuser
+Password:
+Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 6.6.87.2-microsoft-standard-WSL2 x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Tue Oct 14 22:12:59 +05 2025
+
+  System load:  0.0                 Processes:             31
+  Usage of /:   0.1% of 1006.85GB   Users logged in:       1
+  Memory usage: 9%                  IPv4 address for eth0: 172.28.0.63
+  Swap usage:   0%
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+This message is shown once a day. To disable it please create the
+/home/testuser/.hushlogin file.
+testuser@LAPTOP-JKP8DJLA:~$ nano file.txt
+testuser@LAPTOP-JKP8DJLA:~$ exit
+logout

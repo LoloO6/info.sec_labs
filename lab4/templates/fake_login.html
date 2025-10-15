@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Payment (test)</title>
+</head>
+<body>
+  <h2>Тестовая оплата</h2>
+  <form method="post" action="/submit">
+    <label>Имя на карте</label><br>
+    <input type="text" name="card_name" required><br>
+
+    <label>Номер карты</label><br>
+    <input type="text" name="card_number" placeholder="4111 1111 1111 1111" required><br>
+
+    <label>Срок (MM)</label>
+    <input type="text" name="exp_month" required style="width:60px;">
+    <label>Год (YY)</label>
+    <input type="text" name="exp_year" required style="width:60px;"><br>
+
+    <label>CVC</label><br>
+    <input type="text" name="cvc" required><br><br>
+
+    <button type="submit">Оплатить (тест)</button>
+  </form>
+</body>
+</html>

@@ -1,0 +1,307 @@
+
+leila@LAPTOP-JKP8DJLA:/$ sudo apt search nginx
+Sorting... Done
+Full Text Search... Done
+centreon-plugins/jammy 0.0~20220113-1 all
+  Collection of Nagios plugins to monitor OS, services and network devices
+
+collectd-core/jammy-updates 5.12.0-10ubuntu0.1 amd64
+  statistics collection and monitoring daemon (core system)
+
+elpa-nginx-mode/jammy 1.1.9-2 all
+  major mode for editing nginx config files
+
+fcgiwrap/jammy 1.1.0-12 amd64
+  simple server to run CGI applications over FastCGI
+
+gitweb/jammy-updates,jammy-security 1:2.34.1-1ubuntu1.15 all
+  fast, scalable, distributed revision control system (web interface)
+
+golang-github-gorilla-handlers-dev/jammy 1.4.2-1 all
+  collection of useful handlers for Go's net/http package
+
+golang-github-hashicorp-hcl-dev/jammy 1.0.0-1.1 all
+  Go implementation of HashiCorp Configuration Language
+
+golang-github-nginxinc-nginx-plus-go-client-dev/jammy 0.9.0-2 all
+  client for NGINX Plus API for Go (library)
+
+gunicorn/jammy 20.1.0-2 all
+  Event-based HTTP/WSGI server
+
+gunicorn-examples/jammy 20.1.0-2 all
+  Event-based HTTP/WSGI server (examples)
+
+kopano-webapp-nginx/jammy 3.5.14+dfsg1.orig-1 all
+  WebApp for the Kopano Collaboration Platform - Nginx
+
+ledgersmb/jammy-updates,jammy-security 1.6.33+ds-1ubuntu0.1 all
+  financial accounting and ERP program
+
+lemonldap-ng-fastcgi-server/jammy 2.0.13+ds-3ubuntu1 all
+  Lemonldap::NG FastCGI server
+
+lemonldap-ng-handler/jammy 2.0.13+ds-3ubuntu1 all
+  Lemonldap::NG handler part
+
+libnginx-mod-http-auth-pam/jammy-updates,jammy-security 1.18.0-6ubuntu14.7 amd64
+  PAM authentication module for Nginx
+
+libnginx-mod-http-cache-purge/jammy-updates,jammy-security 1.18.0-6ubuntu14.7 amd64
+  Purge content from Nginx caches
+
+libnginx-mod-http-dav-ext/jammy-updates,jammy-security 1.18.0-6ubuntu14.7 amd64
+  WebDAV missing commands support for Nginx
+
+libnginx-mod-http-echo/jammy-updates,jammy-security 1.18.0-6ubuntu14.7 amd64
+  Bring echo and more shell style goodies to Nginx
+
+libnginx-mod-http-fancyindex/jammy-updates,jammy-security 1.18.0-6ubuntu14.7 amd64
+  Fancy indexes module for the Nginx
+
+libnginx-mod-http-geoip/jammy-updates,jammy-security 1.18.0-6ubuntu14.7 amd64
+  GeoIP HTTP module for Nginx
+
+libnginx-mod-http-geoip2/jammy-updates,jammy-security 1.18.0-6ubuntu14.7 amd64
+  GeoIP2 HTTP module for Nginx
+
+libnginx-mod-http-headers-more-filter/jammy-updates,jammy-security 1.18.0-6ubuntu14.7 amd64
+  Set and clear input and output headers for Nginx
+
+libnginx-mod-http-image-filter/jammy-updates,jammy-security 1.18.0-6ubuntu14.7 amd64
+  HTTP image filter module for Nginx
+
+libnginx-mod-http-ndk/jammy-updates,jammy-security 1.18.0-6ubuntu14.7 amd64
+  Nginx Development Kit module
+
+libnginx-mod-http-perl/jammy-updates,jammy-security 1.18.0-6ubuntu14.7 amd64
+  Perl module for Nginx
+
+libnginx-mod-http-subs-filter/jammy-updates,jammy-security 1.18.0-6ubuntu14.7 amd64
+  Substitution filter module for Nginx
+
+libnginx-mod-http-uploadprogress/jammy-updates,jammy-security 1.18.0-6ubuntu14.7 amd64
+  Upload progress system for Nginx
+
+libnginx-mod-http-upstream-fair/jammy-updates,jammy-security 1.18.0-6ubuntu14.7 amd64
+  Nginx Upstream Fair Proxy Load Balancer
+
+libnginx-mod-http-xslt-filter/jammy-updates,jammy-security 1.18.0-6ubuntu14.7 amd64
+  XSLT Transformation module for Nginx
+
+libnginx-mod-mail/jammy-updates,jammy-security 1.18.0-6ubuntu14.7 amd64
+  Mail module for Nginx
+
+libnginx-mod-nchan/jammy-updates,jammy-security 1.18.0-6ubuntu14.7 amd64
+  Fast, flexible pub/sub server for Nginx
+
+libnginx-mod-rtmp/jammy-updates,jammy-security 1.18.0-6ubuntu14.7 amd64
+  RTMP support for Nginx
+
+libnginx-mod-stream/jammy-updates,jammy-security 1.18.0-6ubuntu14.7 amd64
+  Stream module for Nginx
+
+libnginx-mod-stream-geoip/jammy-updates,jammy-security 1.18.0-6ubuntu14.7 amd64
+  GeoIP Stream module for Nginx
+
+libnginx-mod-stream-geoip2/jammy-updates,jammy-security 1.18.0-6ubuntu14.7 amd64
+  GeoIP2 Stream module for Nginx
+
+libplack-middleware-file-sass-perl/jammy 0.03-4.1 all
+  Sass and SCSS support for all Plack-based PSGI frameworks
+
+lua-nginx-cookie/jammy 0.1.0-1.1 all
+  Pure Lua cookie parser for the nginx embedded Lua language
+
+lua-nginx-dns/jammy 0.20-1 all
+  DNS resolver for the nginx embedded Lua language
+
+lua-nginx-kafka/jammy 0.07-1 all
+  Pure Lua Kafka producer for the nginx embedded Lua language
+
+lua-nginx-memcached/jammy 0.14-1.1 all
+  Pure Lua memcached client driver for the nginx embedded Lua language
+
+lua-nginx-redis/jammy 0.27-1.1 all
+  Pure Lua redis client driver for the nginx embedded Lua language
+
+lua-nginx-redis-connector/jammy 0.06-1 all
+  Connection utilities for lua-nginx-redis
+
+lua-nginx-string/jammy 0.11-1 all
+  String utilities for the nginx embedded Lua language
+
+lua-nginx-websocket/jammy 0.08-1 all
+  Lua websocket client driver for the nginx embedded Lua language
+
+mighttpd2/jammy 3.4.6-1build1.1 amd64
+  classical web server on WAI/warp
+
+nginx/jammy-updates,jammy-security 1.18.0-6ubuntu14.7 amd64
+  small, powerful, scalable web/proxy server
+
+nginx-common/jammy-updates,jammy-security 1.18.0-6ubuntu14.7 all
+  small, powerful, scalable web/proxy server - common files
+
+nginx-confgen/jammy 2.0-1 amd64
+  nginx configuration file macro language and preprocessor
+
+nginx-core/jammy-updates,jammy-security 1.18.0-6ubuntu14.7 amd64
+  nginx web/proxy server (standard version)
+
+nginx-doc/jammy-updates,jammy-security 1.18.0-6ubuntu14.7 all
+  small, powerful, scalable web/proxy server - documentation
+
+nginx-extras/jammy-updates,jammy-security 1.18.0-6ubuntu14.7 amd64
+  nginx web/proxy server (extended version)
+
+nginx-full/jammy-updates,jammy-security 1.18.0-6ubuntu14.7 amd64
+  nginx web/proxy server (standard version with 3rd parties)
+
+nginx-light/jammy-updates,jammy-security 1.18.0-6ubuntu14.7 amd64
+  nginx web/proxy server (basic version)
+
+prometheus-exporter-exporter/jammy 0.4.0-1 amd64
+  simple reverse proxy to other Prometheus exporters
+
+prometheus-nginx-exporter/jammy-updates,jammy-security 0.10.0-1ubuntu0.1 amd64
+  Prometheus exporter for NGINX webservers
+
+python3-certbot-nginx/jammy 1.21.0-1 all
+  Nginx plugin for Certbot
+
+python3-django-downloadview/jammy 2.3.0-1 all
+  efficient static file serving with Django (Python3 version)
+
+python3-geventhttpclient/jammy 1.5.3-1build1 amd64
+  high performance, concurrent HTTP client library for Python using gevent
+
+python3-gunicorn/jammy 20.1.0-2 all
+  Event-based HTTP/WSGI server (Python 3 libraries)
+
+python3-whitenoise/jammy 5.2.0-1 all
+  static file serving for WSGI applications (Python 3)
+
+resource-agents-extra/jammy-updates 1:4.7.0-1ubuntu7.3 amd64
+  Cluster Resource Agents
+
+rt4-fcgi/jammy-updates,jammy-security 4.4.4+dfsg-2ubuntu1.22.04.1 all
+  External FastCGI support for request-tracker4
+
+rt5-fcgi/jammy 5.0.1+dfsg-1ubuntu1 all
+  External FastCGI support for request-tracker5
+
+test-kitchen/jammy 1.23.2-6 all
+  integration tool for Chef
+
+leila@LAPTOP-JKP8DJLA:/$ sudo apt install nginx -y
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  libgd3 libnginx-mod-http-geoip2 libnginx-mod-http-image-filter libnginx-mod-http-xslt-filter libnginx-mod-mail
+  libnginx-mod-stream libnginx-mod-stream-geoip2 libxpm4 libxslt1.1 nginx-common nginx-core
+Suggested packages:
+  libgd-tools fcgiwrap nginx-doc ssl-cert
+The following NEW packages will be installed:
+  libgd3 libnginx-mod-http-geoip2 libnginx-mod-http-image-filter libnginx-mod-http-xslt-filter libnginx-mod-mail
+  libnginx-mod-stream libnginx-mod-stream-geoip2 libxpm4 libxslt1.1 nginx nginx-common nginx-core
+0 upgraded, 12 newly installed, 0 to remove and 125 not upgraded.
+Need to get 1028 kB of archives.
+After this operation, 3462 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libxpm4 amd64 1:3.5.12-1ubuntu0.22.04.2 [36.7 kB]
+Get:2 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libgd3 amd64 2.3.0-2ubuntu2.3 [129 kB]
+Get:3 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 nginx-common all 1.18.0-6ubuntu14.7 [40.1 kB]
+Get:4 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libnginx-mod-http-geoip2 amd64 1.18.0-6ubuntu14.7 [12.0 kB]
+Get:5 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libnginx-mod-http-image-filter amd64 1.18.0-6ubuntu14.7 [15.5 kB]
+Get:6 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libxslt1.1 amd64 1.1.34-4ubuntu0.22.04.4 [165 kB]
+Get:7 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libnginx-mod-http-xslt-filter amd64 1.18.0-6ubuntu14.7 [13.8 kB]
+Get:8 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libnginx-mod-mail amd64 1.18.0-6ubuntu14.7 [45.8 kB]
+Get:9 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libnginx-mod-stream amd64 1.18.0-6ubuntu14.7 [73.0 kB]
+Get:10 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libnginx-mod-stream-geoip2 amd64 1.18.0-6ubuntu14.7 [10.1 kB]
+Get:11 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 nginx-core amd64 1.18.0-6ubuntu14.7 [483 kB]
+Get:12 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 nginx amd64 1.18.0-6ubuntu14.7 [3878 B]
+Fetched 1028 kB in 3s (410 kB/s)
+Preconfiguring packages ...
+Selecting previously unselected package libxpm4:amd64.
+(Reading database ... 42578 files and directories currently installed.)
+Preparing to unpack .../00-libxpm4_1%3a3.5.12-1ubuntu0.22.04.2_amd64.deb ...
+Unpacking libxpm4:amd64 (1:3.5.12-1ubuntu0.22.04.2) ...
+Selecting previously unselected package libgd3:amd64.
+Preparing to unpack .../01-libgd3_2.3.0-2ubuntu2.3_amd64.deb ...
+Unpacking libgd3:amd64 (2.3.0-2ubuntu2.3) ...
+Selecting previously unselected package nginx-common.
+Preparing to unpack .../02-nginx-common_1.18.0-6ubuntu14.7_all.deb ...
+Unpacking nginx-common (1.18.0-6ubuntu14.7) ...
+Selecting previously unselected package libnginx-mod-http-geoip2.
+Preparing to unpack .../03-libnginx-mod-http-geoip2_1.18.0-6ubuntu14.7_amd64.deb ...
+Unpacking libnginx-mod-http-geoip2 (1.18.0-6ubuntu14.7) ...
+Selecting previously unselected package libnginx-mod-http-image-filter.
+Preparing to unpack .../04-libnginx-mod-http-image-filter_1.18.0-6ubuntu14.7_amd64.deb ...
+Unpacking libnginx-mod-http-image-filter (1.18.0-6ubuntu14.7) ...
+Selecting previously unselected package libxslt1.1:amd64.
+Preparing to unpack .../05-libxslt1.1_1.1.34-4ubuntu0.22.04.4_amd64.deb ...
+Unpacking libxslt1.1:amd64 (1.1.34-4ubuntu0.22.04.4) ...
+Selecting previously unselected package libnginx-mod-http-xslt-filter.
+Preparing to unpack .../06-libnginx-mod-http-xslt-filter_1.18.0-6ubuntu14.7_amd64.deb ...
+Unpacking libnginx-mod-http-xslt-filter (1.18.0-6ubuntu14.7) ...
+Selecting previously unselected package libnginx-mod-mail.
+Preparing to unpack .../07-libnginx-mod-mail_1.18.0-6ubuntu14.7_amd64.deb ...
+Unpacking libnginx-mod-mail (1.18.0-6ubuntu14.7) ...
+Selecting previously unselected package libnginx-mod-stream.
+Preparing to unpack .../08-libnginx-mod-stream_1.18.0-6ubuntu14.7_amd64.deb ...
+Unpacking libnginx-mod-stream (1.18.0-6ubuntu14.7) ...
+Selecting previously unselected package libnginx-mod-stream-geoip2.
+Preparing to unpack .../09-libnginx-mod-stream-geoip2_1.18.0-6ubuntu14.7_amd64.deb ...
+Unpacking libnginx-mod-stream-geoip2 (1.18.0-6ubuntu14.7) ...
+Selecting previously unselected package nginx-core.
+Preparing to unpack .../10-nginx-core_1.18.0-6ubuntu14.7_amd64.deb ...
+Unpacking nginx-core (1.18.0-6ubuntu14.7) ...
+Selecting previously unselected package nginx.
+Preparing to unpack .../11-nginx_1.18.0-6ubuntu14.7_amd64.deb ...
+Unpacking nginx (1.18.0-6ubuntu14.7) ...
+Setting up libxpm4:amd64 (1:3.5.12-1ubuntu0.22.04.2) ...
+Setting up nginx-common (1.18.0-6ubuntu14.7) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/nginx.service → /lib/systemd/system/nginx.service.
+Setting up libgd3:amd64 (2.3.0-2ubuntu2.3) ...
+Setting up libxslt1.1:amd64 (1.1.34-4ubuntu0.22.04.4) ...
+Setting up libnginx-mod-http-geoip2 (1.18.0-6ubuntu14.7) ...
+Setting up libnginx-mod-mail (1.18.0-6ubuntu14.7) ...
+Setting up libnginx-mod-http-image-filter (1.18.0-6ubuntu14.7) ...
+Setting up libnginx-mod-stream (1.18.0-6ubuntu14.7) ...
+Setting up libnginx-mod-http-xslt-filter (1.18.0-6ubuntu14.7) ...
+Setting up libnginx-mod-stream-geoip2 (1.18.0-6ubuntu14.7) ...
+Setting up nginx-core (1.18.0-6ubuntu14.7) ...
+ * Upgrading binary nginx                                                                                                     [ OK ]
+Setting up nginx (1.18.0-6ubuntu14.7) ...
+Processing triggers for ufw (0.36.1-4ubuntu0.1) ...
+Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.8) ...
+leila@LAPTOP-JKP8DJLA:/$ nginx -v
+nginx version: nginx/1.18.0 (Ubuntu)
+leila@LAPTOP-JKP8DJLA:/$ sudo systemctl start nginx
+leila@LAPTOP-JKP8DJLA:/$ sudo systemctl enable nginx
+Synchronizing state of nginx.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable nginx
+leila@LAPTOP-JKP8DJLA:/$ sudo systemctl status nginx
+● nginx.service - A high performance web server and a reverse proxy server
+     Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: enabled)
+     Active: active (running) since Wed 2025-10-15 19:44:54 +05; 2min 40s ago
+       Docs: man:nginx(8)
+   Main PID: 1940 (nginx)
+      Tasks: 9 (limit: 4536)
+     Memory: 10.7M
+        CPU: 225ms
+     CGroup: /system.slice/nginx.service
+             ├─1940 "nginx: master process /usr/sbin/nginx -g daemon on; master_process on;"
+             ├─1942 "nginx: worker process" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" ""
+             ├─1943 "nginx: worker process" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" ""
+             ├─1944 "nginx: worker process" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" ""
+             ├─1945 "nginx: worker process" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" ""
+             ├─1946 "nginx: worker process" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" ""
+             ├─1947 "nginx: worker process" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" ""
+             ├─1948 "nginx: worker process" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" ""
+             └─1949 "nginx: worker process" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" ""
+
+Oct 15 19:44:54 LAPTOP-JKP8DJLA systemd[1]: Starting A high performance web server and a reverse proxy server...
+Oct 15 19:44:54 LAPTOP-JKP8DJLA systemd[1]: Started A high performance web server and a reverse proxy server.
