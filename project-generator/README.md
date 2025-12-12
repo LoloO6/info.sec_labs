@@ -44,9 +44,9 @@ python -m project_generator --list
 ### Create a New Project
 
 ```bash
-project-gen --name my-react-app --type react --dest ./projects
-project-gen --name my-api --type fastapi --dest .
-project-gen --name my-spring-app --type spring --dest ~/workspace
+project-gen --type react --name my-react-app --dest ./projects
+project-gen --type fastapi --name my-api --dest .
+project-gen --type spring --name my-spring-app --dest ~/workspace
 ```
 
 ### Command Line Options
