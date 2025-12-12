@@ -1,6 +1,4 @@
-"""
-Core project generation logic.
-"""
+""" Core project generation logic."""
 
 from pathlib import Path
 from typing import Dict, Any, List
@@ -24,7 +22,7 @@ class ProjectGenerator:
         """
         Generate the project from template.
         """
-        print(f"🚀 Generating project '{self.project_name}' using template '{self.template_name}'")
+        print(f" Generating project '{self.project_name}' using template '{self.template_name}'")
         base_path = self.destination / self.project_name
 
         # Create root directory
