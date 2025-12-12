@@ -75,8 +75,8 @@ my-api/
 
 ### Spring Boot (Java)
 
-my-spring-app/
-├── src/main/java/com/example/my-spring-app/
+my_spring_app/
+├── src/main/java/com/example/my_spring_app/
 │   ├── MySpringAppApplication.java
 │   ├── MyController.java
 │   └── MyService.java
