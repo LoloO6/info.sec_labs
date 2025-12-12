@@ -52,38 +52,38 @@ project-gen --type spring --name my-spring-app --dest ~/workspace
 ### React (JavaScript)
 
 my-react-app/
-├── public/
-│   └── index.html
-└── src/
-    ├── components/
-    ├── App.js
-    └── index.js
+* ├── public/
+* │   └── index.html
+* └── src/
+*    ├── components/
+*    ├── App.js
+*    └── index.js
 
 ### FastAPI (Python)
 
 my-api/
-├── app/
-│   ├── api/
-│   │   └── routers.py
-│   ├── core/
-│   │   ├── config.py
-│   │   └── database.py
-│   └── __init__.py
-├── main.py
-├── requirements.txt
-└── README.md
+* ├── app/
+* │   ├── api/
+* │   │   └── routers.py
+* │   ├── core/
+* │   │   ├── config.py
+* │   │   └── database.py
+* │   └── __init__.py
+* ├── main.py
+* ├── requirements.txt
+* └── README.md
 
 ### Spring Boot (Java)
 
 my_spring_app/
-├── src/main/java/com/example/my_spring_app/
-│   ├── MySpringAppApplication.java
-│   ├── MyController.java
-│   └── MyService.java
-├── src/main/resources/
-│   └── application.properties
-├── pom.xml
-└── README.md
+* ├── src/main/java/com/example/my_spring_app/
+* │   ├── MySpringAppApplication.java
+* │   ├── MyController.java
+* │   └── MyService.java
+* ├── src/main/resources/
+* │   └── application.properties
+* ├── pom.xml
+* └── README.md
 
  
 
