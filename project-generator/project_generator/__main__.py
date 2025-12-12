@@ -13,12 +13,6 @@ def main():
         description="Project Template Generator - Create new project structure."
     )
 
-    parser.add_argument(
-        "--list", "-l",
-        action="store_true",
-        help="List all available templates"
-    )
-
 
     parser.add_argument(
         "template",

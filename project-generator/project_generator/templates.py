@@ -1,6 +1,4 @@
-"""
-Template definitions for project generator.
-"""
+"""Template definitions for project generator."""
 
 TEMPLATES = {
     "react": {
