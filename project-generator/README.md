@@ -5,10 +5,7 @@ A terminal utility for creating structured project templates with proper archite
 ## Features
 
 *  **Quick Setup**: Generate complete project structures in seconds
-*  **Best Practices**: Templates follow industry-standard architectures
 *  **Multiple Frameworks**: React (TypeScript), FastAPI (Python), Spring Boot (Java)
-*  **Organized Structure**: Proper separation of concerns (controllers, services, models, etc.)
-*  **Customizable**: Easy to extend with new templates
 
 ## Installation
 
@@ -30,17 +27,7 @@ python -m project_generator --list
 ```
 
 ## Usage
-
-### List Available Templates
-
-```bash
-project-gen --list
-```
-
-```bash
-python -m project_generator --list
-```
-
+ 
 ### Create a New Project
 
 ```bash
@@ -98,12 +85,7 @@ my-spring-app/
 ├── pom.xml
 └── README.md
 
-## Placeholders
-
-* `{{PROJECT_NAME}}`
-* `{{PROJECT_NAME_UPPER}}`
-* `{{PROJECT_NAME_LOWER}}`
-* `{{PROJECT_NAME_CAPITALIZED}}`
+ 
 
 
 
